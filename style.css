@@ -7,29 +7,57 @@
     align-items: center;
 }
 
-body {
-    background: #151515;
-    color: #e9e9e9;
-    border: #393939;
-  }
+#canvas1 {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* makes canvas bottommost layer*/
+    background: linear-gradient(black, #47476b, #99ffff);
+    
+}
 
 h1{
     display: flex;
     padding: 1px;
     font-size: 24px;
-    color: #ffebcc;
+    color: #fc6;
 }  
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffe066;
+    margin-top: -18px;
+}
+
 
 .center{
     display: block;
     margin: auto;
     padding: 15px 10px;
+    border-radius: 80%;
+}
+
+.twitter-follow-button{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.github-button{
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 .navbar{
-    background: #222;
+    
     background-image: url(images/2.jpeg);
-    background-size: 99%;
+    opacity: .90;
+    background-size: 50%;
     height: 80 px;
     display: flex;
     justify-content: center;
@@ -49,9 +77,10 @@ h1{
 #navbar_home{
     color:#99ffff;
     align-items: center;
-    font-size: 28px;
+    font-size: 30px;
     text-decoration: none;
     display: flex;
+    margin-left: 20px;
 }
 
 .navbar_menu{
@@ -64,11 +93,11 @@ h1{
 
 .navbar_item{
     height: 105px;
-    margin: 020px;
+    margin: 20px;
 }
 
 .navbar_link:hover{
-    color: #FFB6C1;
+    color: #ff80ff;
 }
 
 .navbar_link{
