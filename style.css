@@ -40,6 +40,19 @@ p{
     border-radius: 80%;
 }
 
+.img-center{
+    display: block;
+    margin: auto;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color:#ffe6cc;
+    margin-top: 3px;
+}
+
 .twitter-follow-button{
     display: flex;
     align-items: center;
@@ -47,10 +60,14 @@ p{
     margin-top: 6px;
 }
 
-.github-button{
+.github{
     display: flex;
     align-items: center;
     margin: auto;
+    margin-top: 5px;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ff9933;
 }
 
 .navbar{
